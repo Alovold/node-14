@@ -1,6 +1,7 @@
 :root{
   --dark-blue: #13293d;
   --white: #fff;
+  --tan: #d8a47f;
   --bR: 50px;
 }
 body {
@@ -30,7 +31,7 @@ header {
 
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: var(--tan);
 }
 
 nav a {
